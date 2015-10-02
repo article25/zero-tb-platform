@@ -79,10 +79,10 @@ lightf {
 
 
 /**/
-/*Start a Campaign and Petition Styling*/
+/*Start a Campaign Styling*/
 /**/
 
-body.custom div#gf_page_steps_1 {
+div#gf_page_steps_1 {
     position:relative;
     top: .5em;
     text-align: center;
@@ -91,7 +91,7 @@ body.custom div#gf_page_steps_1 {
     font-weight:700;
 }
 
-body.custom input#input_1_1, body.custom input#input_1_3 {
+input#input_1_1, input#input_1_3 {
     font-size:1.75em;
     font-weight:300;
     width:70%;
@@ -101,7 +101,7 @@ body.custom input#input_1_1, body.custom input#input_1_3 {
     top:-2em;
 }
 
-body.custom textarea#input_1_4 {
+textarea#input_1_4 {
     font-size:1.5em;
     font-weight:300;
     width:70%;
@@ -112,11 +112,11 @@ body.custom textarea#input_1_4 {
     top:-2em;
 }
 
-body.custom input#input_1_1, body.custom input#input_1_2  {
+input#input_1_1, body.custom input#input_1_2  {
     line-height:3em;
 }
 
-body.custom input#input_1_6  {
+input#input_1_6  {
     position: relative;
     font-size:1.75em;
     font-weight:300;
@@ -126,7 +126,7 @@ body.custom input#input_1_6  {
     left:1.75em;
 }
 
-body.custom input#input_1_7   {
+input#input_1_7   {
     position: relative;
     font-size:1.75em;
     font-weight:300;
@@ -136,7 +136,7 @@ body.custom input#input_1_7   {
     left:1.75em;
 }
 
-body.custom input#input_1_8   {
+input#input_1_8   {
     position: relative;
     font-size:1.75em;
     font-weight:300;
@@ -147,7 +147,7 @@ body.custom input#input_1_8   {
 }
 
 
-body.custom .gfield_description {
+.gfield_description {
     font-family:Lato;
     font-size:1.25em;
     width:75em;
@@ -157,7 +157,7 @@ body.custom .gfield_description {
     top:2em;
 }
 
-body.custom div#start-a-campaign {
+div#start-a-campaign {
     font-size:2.5em;
     font-family: Lato;
     font-weight:300;
@@ -165,7 +165,7 @@ body.custom div#start-a-campaign {
 }
 
 
-body.custom input#gform_next_button_1_2, body.custom input#gform_previous_button_1_5 {
+input#gform_next_button_1_2, input#gform_previous_button_1_5 {
     font-size:2em;
     font-family:Lato;
     font-weight:300;
@@ -178,11 +178,11 @@ body.custom input#gform_next_button_1_2, body.custom input#gform_previous_button
     left:3em;
 }
 
-body.custom input#gform_next_button_1_2, body.custom input#gform_next_button_1_5 {
+input#gform_next_button_1_2, input#gform_next_button_1_5 {
      background:#ff9f00;
  }
  
-body.custom input#gform_next_button_1_5 {
+input#gform_next_button_1_5 {
     background: #ff9f00;
     font-size:2em;
     font-family:Lato;
@@ -196,7 +196,7 @@ body.custom input#gform_next_button_1_5 {
     left:3em;
 }
 
-body.custom input#gform_submit_button_1 {
+input#gform_submit_button_1 {
     background: #ff9f00;
     font-size:2em;
     font-family:Lato;
@@ -210,7 +210,7 @@ body.custom input#gform_submit_button_1 {
     left:5em;
 }
 
-body.custom input#gform_previous_button_1 {
+input#gform_previous_button_1 {
     font-size:2em;
     font-family:Lato;
     font-weight:300;
@@ -223,31 +223,21 @@ body.custom input#gform_previous_button_1 {
     left:3em;
 }
 
-body.custom input#gform_next_button_1_2:hover, body.custom input#gform_previous_button_1_5:hover, body.custom input#gform_next_button_1_5:hover, body.custom input#gform_previous_button_1:hover, body.custom input#gform_submit_button_1:hover {
+input#gform_next_button_1_2:hover, input#gform_previous_button_1_5:hover, input#gform_next_button_1_5:hover, body.custom input#gform_previous_button_1:hover, body.custom input#gform_submit_button_1:hover {
     background:grey;
 }
 
-body.custom div#home-launch-a-campaign-button {
-    position:relative;
-    padding:8em;
-    left:75px;
-    opacity:.9;
-    width:50%;
-    height:100px;
+
 }
 
-body.custom div#home-launch-a-campaign-button:hover {
-    opacity:1;
-}
-
-body.custom h1.entry-title {
+h1.entry-title {
     font-size:3.5em;
     font-family:Lato;
     font-weight: 500;
     text-align:center;
 }
 
-body.custom .post-thumbnail.post-thumbnail-above-content {
+.post-thumbnail.post-thumbnail-above-content {
     position:relative;
     left:200px;
     width:500px;
@@ -262,23 +252,23 @@ body.custom .post-thumbnail.post-thumbnail-above-content {
     padding:.5em;
 }
 
-body.custom .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
+.gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
     height:1em;
 }
 
-body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=text], body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body.custom .gform_wrapper .gform_body .gform_fields .gfield textarea {
+.gform_wrapper .gform_body .gform_fields .gfield input[type=text], body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body.custom .gform_wrapper .gform_body .gform_fields .gfield textarea {
     font-size:1.2em;
     font-weight:300;
     height:70px;
 }
 
-body.custom .petition-form {
+.petition-form {
     position:relative;
     top:-51em;
     left:60em;
 }
 
-body.custom .gform_wrapper .gform_footer input[type=submit] {
+.gform_wrapper .gform_footer input[type=submit] {
     position:relative;
     top:.6em;
     font-family:Lato;
@@ -291,11 +281,11 @@ body.custom .gform_wrapper .gform_footer input[type=submit] {
     font-size:2em;
 }
 
-body.custom .gform_wrapper .gform_footer input[type=submit]:hover {
+.gform_wrapper .gform_footer input[type=submit]:hover {
     background:grey;
 }
 
-body.custom .gform_wrapper .gform_body .gform_fields .gfield select {
+.gform_wrapper .gform_body .gform_fields .gfield select {
     position:relative;
     height:3em;
     font-size:1.1em;
@@ -303,7 +293,7 @@ body.custom .gform_wrapper .gform_body .gform_fields .gfield select {
     
 }
 
-body.custom .entry-content {
+.entry-content {
     position:relative;
     left:7.5em;
     font-family:Lato;
