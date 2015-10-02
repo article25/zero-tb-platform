@@ -21,6 +21,7 @@ h3 {
 }
 
 
+
 orng {
   color: #FF4719;
 }
@@ -40,6 +41,7 @@ lightf {
   margin-bottom: 50px;
 }
 
+
 .nav a {
   color: #5a5a5a;
   font-family: Lato;
@@ -52,10 +54,12 @@ lightf {
 }
 
 .jumbotron {
-  background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome5.jpg');
+  background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome8.jpg');
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .jumbotron .container {
@@ -73,8 +77,12 @@ lightf {
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+  font-family: Lato;
 }
 
+#jumbo-sub-position {
+  margin-top:-8em;
+}
 
 
 
