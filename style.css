@@ -1,0 +1,312 @@
+h1 {
+  font-family:Lato;
+  font-size: 45px;
+  color:black;
+  font-weight:500;
+}
+
+
+h2 {
+  font-family:Lato;
+  font-size: 32px;
+  color:black;
+  font-weight:700;
+}
+
+h3 {
+  font-family:Lato;
+  font-size: 22px;
+  color:white;
+  font-weight:700;
+}
+
+
+orng {
+  color: #FF4719;
+}
+
+lightf {
+  font-weight:300;
+}
+
+.btn {
+  background-color: #FF4719;
+  color: white;
+
+}
+
+#btn-home-start {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome5.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+/**/
+/*Start a Campaign and Petition Styling*/
+/**/
+
+body.custom div#gf_page_steps_1 {
+    position:relative;
+    top: .5em;
+    text-align: center;
+    font-family:Lato;
+    font-size:1.4em;
+    font-weight:700;
+}
+
+body.custom input#input_1_1, body.custom input#input_1_3 {
+    font-size:1.75em;
+    font-weight:300;
+    width:70%;
+    margin:2em;
+    padding:.5em;
+    position:relative;
+    top:-2em;
+}
+
+body.custom textarea#input_1_4 {
+    font-size:1.5em;
+    font-weight:300;
+    width:70%;
+    margin:2em;
+    height:6em;
+    padding:.5em;
+    position:relative;
+    top:-2em;
+}
+
+body.custom input#input_1_1, body.custom input#input_1_2  {
+    line-height:3em;
+}
+
+body.custom input#input_1_6  {
+    position: relative;
+    font-size:1.75em;
+    font-weight:300;
+    width:70%;
+    padding:.5em;
+    top:4em;
+    left:1.75em;
+}
+
+body.custom input#input_1_7   {
+    position: relative;
+    font-size:1.75em;
+    font-weight:300;
+    width:70%;
+    padding:.5em;
+    top:6em;
+    left:1.75em;
+}
+
+body.custom input#input_1_8   {
+    position: relative;
+    font-size:1.75em;
+    font-weight:300;
+    width:70%;
+    padding:.5em;
+    top:8em;
+    left:1.75em;
+}
+
+
+body.custom .gfield_description {
+    font-family:Lato;
+    font-size:1.25em;
+    width:75em;
+    font-weight:300;
+    margin:2.5em;
+    position:relative;
+    top:2em;
+}
+
+body.custom div#start-a-campaign {
+    font-size:2.5em;
+    font-family: Lato;
+    font-weight:300;
+    text-align:center;
+}
+
+
+body.custom input#gform_next_button_1_2, body.custom input#gform_previous_button_1_5 {
+    font-size:2em;
+    font-family:Lato;
+    font-weight:300;
+    position:relative;
+    padding:.5em;
+    width:20%;
+    text-align:center;
+    top:em;
+    color:white;
+    left:3em;
+}
+
+body.custom input#gform_next_button_1_2, body.custom input#gform_next_button_1_5 {
+     background:#ff9f00;
+ }
+ 
+body.custom input#gform_next_button_1_5 {
+    background: #ff9f00;
+    font-size:2em;
+    font-family:Lato;
+    font-weight:300;
+    position:relative;
+    padding:.5em;
+    width:20%;
+    text-align:center;
+    top:em;
+    color:white;
+    left:3em;
+}
+
+body.custom input#gform_submit_button_1 {
+    background: #ff9f00;
+    font-size:2em;
+    font-family:Lato;
+    font-weight:300;
+    position:relative;
+    padding:.5em;
+    width:20%;
+    text-align:center;
+    top:9em;
+    color:white;
+    left:5em;
+}
+
+body.custom input#gform_previous_button_1 {
+    font-size:2em;
+    font-family:Lato;
+    font-weight:300;
+    position:relative;
+    padding:.5em;
+    width:20%;
+    text-align:center;
+    top:9em;
+    color:white;
+    left:3em;
+}
+
+body.custom input#gform_next_button_1_2:hover, body.custom input#gform_previous_button_1_5:hover, body.custom input#gform_next_button_1_5:hover, body.custom input#gform_previous_button_1:hover, body.custom input#gform_submit_button_1:hover {
+    background:grey;
+}
+
+body.custom div#home-launch-a-campaign-button {
+    position:relative;
+    padding:8em;
+    left:75px;
+    opacity:.9;
+    width:50%;
+    height:100px;
+}
+
+body.custom div#home-launch-a-campaign-button:hover {
+    opacity:1;
+}
+
+body.custom h1.entry-title {
+    font-size:3.5em;
+    font-family:Lato;
+    font-weight: 500;
+    text-align:center;
+}
+
+body.custom .post-thumbnail.post-thumbnail-above-content {
+    position:relative;
+    left:200px;
+    width:500px;
+}
+
+.petition_first_name, .petition_last_name, .petition_email_address, .petition_country_drop {
+    font-size:1.3em;
+    font-weight:300;
+    width:40em;
+    position:relative;
+    left:0em;
+    padding:.5em;
+}
+
+body.custom .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
+    height:1em;
+}
+
+body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=text], body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body.custom .gform_wrapper .gform_body .gform_fields .gfield textarea {
+    font-size:1.2em;
+    font-weight:300;
+    height:70px;
+}
+
+body.custom .petition-form {
+    position:relative;
+    top:-51em;
+    left:60em;
+}
+
+body.custom .gform_wrapper .gform_footer input[type=submit] {
+    position:relative;
+    top:.6em;
+    font-family:Lato;
+    font-weight:300;
+    color: white;
+    background: #ff9f00;
+    left:1.8em;
+    width:12.3em;
+    height:2.5em;
+    font-size:2em;
+}
+
+body.custom .gform_wrapper .gform_footer input[type=submit]:hover {
+    background:grey;
+}
+
+body.custom .gform_wrapper .gform_body .gform_fields .gfield select {
+    position:relative;
+    height:3em;
+    font-size:1.1em;
+    font-weight:300;
+    
+}
+
+body.custom .entry-content {
+    position:relative;
+    left:7.5em;
+    font-family:Lato;
+    font-weight:300;
+    width:45em;
+}
