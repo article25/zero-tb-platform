@@ -228,29 +228,7 @@ input#gform_next_button_1_2:hover, input#gform_previous_button_1_5:hover, input#
 }
 
 
-}
 
-h1.entry-title {
-    font-size:3.5em;
-    font-family:Lato;
-    font-weight: 500;
-    text-align:center;
-}
-
-.post-thumbnail.post-thumbnail-above-content {
-    position:relative;
-    left:200px;
-    width:500px;
-}
-
-.petition_first_name, .petition_last_name, .petition_email_address, .petition_country_drop {
-    font-size:1.3em;
-    font-weight:300;
-    width:40em;
-    position:relative;
-    left:0em;
-    padding:.5em;
-}
 
 .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
     height:1em;
@@ -260,12 +238,6 @@ h1.entry-title {
     font-size:1.2em;
     font-weight:300;
     height:70px;
-}
-
-.petition-form {
-    position:relative;
-    top:-51em;
-    left:60em;
 }
 
 .gform_wrapper .gform_footer input[type=submit] {
@@ -291,12 +263,4 @@ h1.entry-title {
     font-size:1.1em;
     font-weight:300;
     
-}
-
-.entry-content {
-    position:relative;
-    left:7.5em;
-    font-family:Lato;
-    font-weight:300;
-    width:45em;
 }
