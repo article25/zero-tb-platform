@@ -115,14 +115,20 @@ div#gf_page_steps_1 {
     font-weight:700;
 }
 
+body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_label {
+  display:none;
+}
+
 body #gform_wrapper_1 .gform_body .gform_fields .gfield input {
 display:block;
-margin:auto;
+margin: 0 auto;
 min-width: 320px;
 }
 
-body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_label {
-  display:none;
+body #gform_wrapper_1 .gform_body .gform_fields .gfield textarea {
+  display:block;
+  margin: 0 auto;
+  min-width: 320px;
 }
 
 input#input_1_1, input#input_1_3 {
@@ -134,44 +140,38 @@ input#input_1_1, input#input_1_3 {
 }
 
 textarea#input_1_4 {
-    font-size:1.5em;
+    font-size:1.25em;
     font-weight:300;
-    width:70%;
-    margin:2em;
-    height:6em;
+    height:10em;
+    min-width: 320px;
+    max-width: 550px;
     padding:.5em;
-    position:relative;
-    top:-2em;
 }
 
 
 input#input_1_6  {
-    position: relative;
-    font-size:1.75em;
+    font-size:1.25em;
     font-weight:300;
-    width:70%;
     padding:.5em;
-    top:4em;
-    left:1.75em;
+    text-align: center;
+    min-width: 320px;
+    max-width: 550px;
 }
 
 input#input_1_7   {
-    position: relative;
-    font-size:1.75em;
+    font-size:1.25em;
     font-weight:300;
-    width:70%;
     padding:.5em;
-    top:6em;
-    left:1.75em;
+    text-align: center;
+    min-width: 320px;
+    max-width: 550px;
 }
 
 input#input_1_8   {
-    position: relative;
-    font-size:1.75em;
+    font-size:1.25em;
     font-weight:300;
-    width:70%;
     padding:.5em;
-    top:8em;
-    left:1.75em;
+    text-align: center;
+    min-width: 320px;
+    max-width: 550px;
 }
-
