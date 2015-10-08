@@ -100,6 +100,12 @@ lightf {
 /*Start a Campaign Styling*/
 /**/
 
+gfield_label {
+  display: none;
+}
+
+
+
 div#gf_page_steps_1 {
     position:relative;
     top: .5em;
@@ -109,14 +115,22 @@ div#gf_page_steps_1 {
     font-weight:700;
 }
 
+body #gform_wrapper_1 .gform_body .gform_fields .gfield input {
+display:block;
+margin:auto;
+min-width: 320px;
+}
+
+body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_label {
+  display:none;
+}
+
 input#input_1_1, input#input_1_3 {
-    font-size:1.75em;
+    font-size:1.25em;
     font-weight:300;
-    width:70%;
-    margin:2em;
-    padding:.5em;
-    position:relative;
-    top:-2em;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
 }
 
 textarea#input_1_4 {
@@ -130,9 +144,6 @@ textarea#input_1_4 {
     top:-2em;
 }
 
-input#input_1_1, body.custom input#input_1_2  {
-    line-height:3em;
-}
 
 input#input_1_6  {
     position: relative;
@@ -164,113 +175,3 @@ input#input_1_8   {
     left:1.75em;
 }
 
-
-.gfield_description {
-    font-family:Lato;
-    font-size:1.25em;
-    width:75em;
-    font-weight:300;
-    margin:2.5em;
-    position:relative;
-    top:2em;
-}
-
-input#gform_next_button_1_2, input#gform_previous_button_1_5 {
-    font-size:2em;
-    font-family:Lato;
-    font-weight:300;
-    position:relative;
-    padding:.5em;
-    width:20%;
-    text-align:center;
-    top:em;
-    color:white;
-    left:3em;
-}
-
-input#gform_next_button_1_2, input#gform_next_button_1_5 {
-     background:#ff9f00;
- }
- 
-input#gform_next_button_1_5 {
-    background: #ff9f00;
-    font-size:2em;
-    font-family:Lato;
-    font-weight:300;
-    position:relative;
-    padding:.5em;
-    width:20%;
-    text-align:center;
-    top:em;
-    color:white;
-    left:3em;
-}
-
-input#gform_submit_button_1 {
-    background: #ff9f00;
-    font-size:2em;
-    font-family:Lato;
-    font-weight:300;
-    position:relative;
-    padding:.5em;
-    width:20%;
-    text-align:center;
-    top:9em;
-    color:white;
-    left:5em;
-}
-
-input#gform_previous_button_1 {
-    font-size:2em;
-    font-family:Lato;
-    font-weight:300;
-    position:relative;
-    padding:.5em;
-    width:20%;
-    text-align:center;
-    top:9em;
-    color:white;
-    left:3em;
-}
-
-input#gform_next_button_1_2:hover, input#gform_previous_button_1_5:hover, input#gform_next_button_1_5:hover, body.custom input#gform_previous_button_1:hover, body.custom input#gform_submit_button_1:hover {
-    background:grey;
-}
-
-
-
-
-.gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
-    height:1em;
-}
-
-.gform_wrapper .gform_body .gform_fields .gfield input[type=text], body.custom .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body.custom .gform_wrapper .gform_body .gform_fields .gfield textarea {
-    font-size:1.2em;
-    font-weight:300;
-    height:70px;
-}
-
-.gform_wrapper .gform_footer input[type=submit] {
-    position:relative;
-    top:.6em;
-    font-family:Lato;
-    font-weight:300;
-    color: white;
-    background: #ff9f00;
-    left:1.8em;
-    width:12.3em;
-    height:2.5em;
-    font-size:2em;
-}
-
-.gform_wrapper .gform_footer input[type=submit]:hover {
-    background:grey;
-}
-
-.gform_wrapper .gform_body .gform_fields .gfield select {
-    position:relative;
-    height:3em;
-    font-size:1.1em;
-    font-weight:300;
-    
-}
