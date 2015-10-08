@@ -175,3 +175,23 @@ input#input_1_8   {
     min-width: 320px;
     max-width: 550px;
 }
+
+input#gform_previous_button_1_5, input#gform_previous_button_1_10, input#gform_previous_button_1 {
+    font-family: Lato;
+    font-size: 18px;
+    text-align:center;
+}
+
+input#gform_next_button_1_2, input#gform_next_button_1_5, input#gform_next_button_1_10, input#gform_submit_button_1 {
+     font-family: Lato;
+     font-size: 18px;
+     background:#FF4719;
+     text-align:center;
+     color: white;
+ }
+ 
+
+input#gform_next_button_1_2:hover, input#gform_previous_button_1_5:hover, input#gform_next_button_1_5:hover, input#gform_previous_button_1_10:hover, input#gform_next_button_1_10:hover, input#gform_previous_button_1:hover, input#gform_submit_button_1:hover {
+    background: white;
+    color: #FF4719;
+}
