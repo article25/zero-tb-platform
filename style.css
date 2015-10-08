@@ -1,4 +1,4 @@
-h1 {
+h1, hs1 {
   font-family:Lato;
   font-size: 45px;
   color:black;
@@ -6,20 +6,26 @@ h1 {
 }
 
 
-h2 {
+h2, hs2 {
   font-family:Lato;
   font-size: 32px;
   color:black;
   font-weight:700;
 }
 
-h3 {
+h3, hs3 {
   font-family:Lato;
   font-size: 22px;
   color:white;
   font-weight:700;
 }
 
+h4, hs4 {
+  font-family:Lato;
+  font-size: 22px;
+  color:black;
+  font-weight:700;
+}
 
 
 orng {
@@ -39,6 +45,10 @@ lightf {
 #btn-home-start {
   margin-top: 25px;
   margin-bottom: 50px;
+}
+
+.bg-info, .bggrey {
+  background: #F8F8F8;
 }
 
 
