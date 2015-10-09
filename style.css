@@ -28,10 +28,6 @@ h4, hs4 {
 }
 
 
-.gform_title {
-  display:none;
-}
-
 orng {
   color: #FF4719;
 }
@@ -98,25 +94,72 @@ lightf {
   margin-top:-8em;
 }
 
-.petfsize {
-  font-size:16px;
-  line-height: 1.6;
+
+
+/* Gravity Forms */
+
+/* this hides form titles */
+.gform_title {
+  display:none;
 }
 
-.start-pad {
-  position: relative;
-  left: 15px;
-}
-
-
-/**/
-/*Start a Campaign Styling*/
-/**/
-
+/* this hides form labels */
 body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
   display:none;
 }
 
+
+/* Petition Pages */
+
+/* resizes petition text */
+.petfsize {
+  font-size:16px;
+  line-height: 1.6;
+  padding-top: 2em;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=email] {
+  width:80%;
+  font-size: 1.1em;
+  margin-bottom: .1em;
+  height: 2.5em;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+  width:80%;
+  font-size: 1.2em;
+}
+
+body .gform_wrapper .gform_footer input[type=submit] {
+  width: 80%;
+  height: 2.5em;
+  font-size: 1.2em;
+  background: #FF4719;
+  color: white;
+  border: 2px solid #FF4719;
+}
+
+
+body .gform_wrapper .gform_footer input[type=submit]:hover {
+  width: 80%;
+  height: 2.5em;
+  font-size: 1.2em;
+  background: white;
+  color: #FF4719;
+  border: 2px solid #FF4719;
+}
+
+
+
+/* Start a Campaign Styling */
+
+/* positions the helper text below each step*/
+.start-pad {
+  position: relative;
+  left: 15px;
+  padding: 1em;
+}
 
 div#gf_page_steps_1 {
     position:relative;
@@ -146,6 +189,9 @@ input#input_1_1, input#input_1_3 {
     margin: auto;
     padding: 1em;
     text-align: center;
+    position: relative;
+    left: 2%;
+    max-width: 50%;
 }
 
 textarea#input_1_4 {
@@ -155,6 +201,8 @@ textarea#input_1_4 {
     min-width: 320px;
     max-width: 550px;
     padding:.5em;
+    position: relative;
+    left: 1%;
 }
 
 
@@ -165,6 +213,8 @@ input#input_1_6  {
     text-align: center;
     min-width: 320px;
     max-width: 550px;
+    position: relative;
+    left: 3%;
 }
 
 input#input_1_7   {
@@ -174,6 +224,8 @@ input#input_1_7   {
     text-align: center;
     min-width: 320px;
     max-width: 550px;
+    position: relative;
+    left: 3%;
 }
 
 input#input_1_8   {
@@ -183,6 +235,8 @@ input#input_1_8   {
     text-align: center;
     min-width: 320px;
     max-width: 550px;
+    position: relative;
+    left: 3%;
 }
 
 input#gform_previous_button_1_5, input#gform_previous_button_1_10, input#gform_previous_button_1 {
