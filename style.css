@@ -40,9 +40,6 @@ lightf {
   font-weight:300;
 }
 
-petfsize {
-  font-size:16px;
-}
 
 .btn {
   background-color: #FF4719;
@@ -101,6 +98,11 @@ petfsize {
   margin-top:-8em;
 }
 
+.petfsize {
+  font-size:16px;
+  line-height: 1.6;
+}
+
 .start-pad {
   position: relative;
   left: 15px;
@@ -111,10 +113,9 @@ petfsize {
 /*Start a Campaign Styling*/
 /**/
 
-gfield_label {
-  display: none;
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
+  display:none;
 }
-
 
 
 div#gf_page_steps_1 {
@@ -126,9 +127,6 @@ div#gf_page_steps_1 {
     font-weight:700;
 }
 
-body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_label {
-  display:none;
-}
 
 body #gform_wrapper_1 .gform_body .gform_fields .gfield input {
 display:block;
