@@ -28,12 +28,20 @@ h4, hs4 {
 }
 
 
+.gform_title {
+  display:none;
+}
+
 orng {
   color: #FF4719;
 }
 
 lightf {
   font-weight:300;
+}
+
+petfsize {
+  font-size:16px;
 }
 
 .btn {
@@ -50,7 +58,6 @@ lightf {
 .bg-info, .bggrey {
   background: #F8F8F8;
 }
-
 
 .nav a {
   color: #5a5a5a;
@@ -94,6 +101,10 @@ lightf {
   margin-top:-8em;
 }
 
+.start-pad {
+  position: relative;
+  left: 15px;
+}
 
 
 /**/
@@ -180,6 +191,7 @@ input#gform_previous_button_1_5, input#gform_previous_button_1_10, input#gform_p
     font-family: Lato;
     font-size: 18px;
     text-align:center;
+    padding:10px;
 }
 
 input#gform_next_button_1_2, input#gform_next_button_1_5, input#gform_next_button_1_10, input#gform_submit_button_1 {
@@ -188,6 +200,7 @@ input#gform_next_button_1_2, input#gform_next_button_1_5, input#gform_next_butto
      background:#FF4719;
      text-align:center;
      color: white;
+     padding:10px;
  }
  
 
