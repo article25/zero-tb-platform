@@ -118,6 +118,11 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
   padding-top: 2em;
 }
 
+/* adds image padding to top*/
+.img-responsive {
+  padding-top: 1.7em;
+}
+
 body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
 body .gform_wrapper .gform_body .gform_fields .gfield input[type=email] {
   width:80%;
@@ -150,6 +155,9 @@ body .gform_wrapper .gform_footer input[type=submit]:hover {
   border: 2px solid #FF4719;
 }
 
+.petition-privacy {
+  font-size: 10px;
+}
 
 
 /* Start a Campaign Styling */
