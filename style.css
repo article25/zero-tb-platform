@@ -36,8 +36,6 @@ lightf {
   font-weight:300;
 }
 
-/*index - I think?*/
-
 
 .btn {
   background-color: #FF4719;
@@ -65,19 +63,28 @@ lightf {
   display: inline;
 }
 
+/*index*/
+
 .navbar-default .navbar-nav>li>a {
     color: #000;
-    font-size: 1.5em;
-    padding-top: 1.75em;
+    font-size: 1.3em;
+    padding: 1.9em 0 0 .5em;
+}
+
+.nav-logo {
+  width: 90%
 }
  
 #navbar-default-overrides.navbar-default {
   background-color: #fff;
   border: none;
+  margin-bottom: 35px;
+  left: 5%;
+
 }
 
 #navbar-brand-overrides.navbar-brand {
-  padding: 25px 25px;
+  padding: 25px 0 0 0;
 }
 
 .jumbotron {
