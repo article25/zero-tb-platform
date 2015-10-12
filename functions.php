@@ -5,12 +5,38 @@ function set_post_content( $entry, $form ) {
     //getting post
     $post = get_post( $entry['post_id'] );
 
-    $form_id_new = '"2"';
-    $petition_form = '"petition-form"';
+    //setting grid variables
+    $petition_form_contain = '"container"';
+    $petition_form_row = '"row"';
+
+    $petition_form_col_1 = '"col-md-1"';
+    $petition_form_col_4_off_1 = '"col-md-4 col-md-offset-1"';
+    $petition_form_col_5 = '"col-md-5"';
+    $petition_form_col_6_off_1 = '"col-md-6 col-md-offset-1"';
+
+    //other variables
+    $petition_form = '"petition-privacy"';
+    $petition_form_petf = '"petfsize"';
+    $quoteone = '"';
+
+    //setting up the petition form
+    $formid = 1;
+    $form_count = RGFormsModel::get_form_counts($formid);
+    $form_count_disp = $form_count['total'];
+    $form_id_step = $form_count_disp + 0;
+
+    $form_id = 2;
+    $form = GFAPI::get_form($form_id);
+    $form_add_new = GFAPI::add_form($form);
+
+    $form_id = $form_id_step;
+    $form = GFAPI::get_form( $form_id );
+    $form['title'] = 'Petition Form ID'.' '.$form_id;
+    $result = GFAPI::update_form($form);
 
     //changing post content
-    $post->post_content = rgar( $entry, '4' ) ."</br></br>". "<div class= $petition_form>[gravityform id = $form_id_new]</div>" ;
-
+    $post->post_content = "<div class=$petition_form_col_4_off_1><h2>Sign the Petition</h2>[gravityform id =$quoteone$form_id_step$quoteone]<div class= $petition_form>We will protect your privacy and keep you posted about this and similar campaigns.</div></div><div class=$petition_form_contain><div class=$petition_form_row>
+<div class=$petition_form_col_6_off_1><div class=$petition_form_petf>". rgar( $entry, '4' ) ."</div></div><div class=$petition_form_col_5></div></div></div>";
     //updating post
     wp_update_post( $post );
 }
@@ -21,8 +47,14 @@ function blankslate_setup()
 load_theme_textdomain( 'blankslate', get_template_directory() . '/languages' );
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' );
+
+//set image size for thumbnails on index page
+add_image_size( 'peti-thumb-size', 350, 160, array( 'center', 'center' ) );
+
 global $content_width;
 if ( ! isset( $content_width ) ) $content_width = 640;
+
+
 register_nav_menus(
 array( 'main-menu' => __( 'Main Menu', 'blankslate' ) )
 );
@@ -81,3 +113,4 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
