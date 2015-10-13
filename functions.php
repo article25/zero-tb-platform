@@ -35,7 +35,7 @@ function set_post_content( $entry, $form ) {
     $result = GFAPI::update_form($form);
 
     //changing post content
-    $post->post_content = "<div class=$petition_form_col_4_off_1><h2>Sign the Petition</h2>[gravityform id =$quoteone$form_id_step$quoteone]<div class= $petition_form>We will protect your privacy and keep you posted about this and similar campaigns.</div></div><div class=$petition_form_contain><div class=$petition_form_row>
+    $post->post_content = "<div class=$petition_form_col_4_off_1>[gravityform id =$quoteone$form_id_step$quoteone]<div class= $petition_form>We will protect your privacy and keep you posted about this and similar campaigns.</div></div><div class=$petition_form_contain><div class=$petition_form_row>
 <div class=$petition_form_col_6_off_1><div class=$petition_form_petf>". rgar( $entry, '4' ) ."</div></div><div class=$petition_form_col_5></div></div></div>";
     //updating post
     wp_update_post( $post );
