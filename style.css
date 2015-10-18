@@ -33,6 +33,13 @@ h5 {
   margin-top:-1px;
 }
 
+h6 {
+  font-family:Lato;
+  font-size: 15px;
+  font-weight:700;
+}
+
+
 
 orng {
   color: #FF4719;
@@ -75,7 +82,7 @@ lightf {
 footer#footer {
   background-color: #333333;
   font-family:Lato;
-  font-size: 15px;
+  font-size: 13px;
   font-weight:500;
   color:white;
   padding: 10px;
@@ -83,7 +90,7 @@ footer#footer {
 
 .jumbotron {
   background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome8.jpg');
-  height: 300px;
+  height: 315px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10px;
@@ -137,6 +144,7 @@ footer#footer {
 .peti-thumb-author {
    color: #000;
 }
+
 
 #peti-thumb-h2 {
     color: #FF4719;
