@@ -72,6 +72,14 @@ lightf {
 
 /*index*/
 
+footer#footer {
+  background-color: #333333;
+  font-family:Lato;
+  font-size: 15px;
+  font-weight:500;
+  color:white;
+  padding: 10px;
+}
 
 .jumbotron {
   background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome8.jpg');
