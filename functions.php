@@ -4,6 +4,8 @@ function set_post_content( $entry, $form ) {
 
     //getting post
     $post = get_post( $entry['post_id'] );
+    $posta = $wp_query->post;
+    $postid = $post->ID;
 
     //setting grid variables
     $petition_form_contain = '"container"';
@@ -23,7 +25,7 @@ function set_post_content( $entry, $form ) {
     $formid = 1;
     $form_count = RGFormsModel::get_form_counts($formid);
     $form_count_disp = $form_count['total'];
-    $form_id_step = $form_count_disp + 0;
+    $form_id_step = $form_count_disp + 32;
 
     $form_id = 2;
     $form = GFAPI::get_form($form_id);
@@ -37,8 +39,16 @@ function set_post_content( $entry, $form ) {
     //changing post content
     $post->post_content = "<div class=$petition_form_col_4_off_1>[gravityform id =$quoteone$form_id_step$quoteone]</div><div class=$petition_form_contain><div class=$petition_form_row>
 <div class=$petition_form_col_6_off_1><div class=$petition_form_petf>". rgar( $entry, '4' ) ."</div></div><div class=$petition_form_col_5></div></div></div>";
+
     //updating post
     wp_update_post( $post );
+
+    //adding form ID
+    $post_id = $postid;
+    $meta_key = 'field_petition_form_id';
+    $meta_value = $form_id_step;
+    add_post_meta($post_id, $meta_key, $meta_value);
+
 }
 
 add_action( 'after_setup_theme', 'blankslate_setup' );
