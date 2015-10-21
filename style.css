@@ -45,6 +45,7 @@ orng {
   color: #FF4719;
 }
 
+
 lightf {
   font-weight:300;
 }
@@ -88,8 +89,17 @@ footer#footer {
   padding: 10px;
 }
 
+footer#footer a{
+  color:white;
+
+}
+
+#index-thumb-override {
+  border: none;
+}
+
 .jumbotron {
-  background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ztbhome8.jpg');
+  background-image:url('http://act.zerotbdeaths.org/wp-content/uploads/2015/10/ZTBhomeimage.jpg');
   height: 315px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,18 +138,24 @@ footer#footer {
 .nav-logo {
   width: 90%
 }
+
+#navbar-brand-overrides.navbar-brand {
+  padding: 25px 0 0 0;
+}
  
 #navbar-default-overrides.navbar-default {
   background-color: #fff;
   border: none;
   margin-bottom: 35px;
   left: 5%;
-
 }
 
-#navbar-brand-overrides.navbar-brand {
-  padding: 25px 0 0 0;
+#navbar-toggle-overrides {
+   margin-right: 4em;
+   margin-top: 1.75em;
 }
+
+
 
 .peti-thumb-author {
    color: #000;
@@ -152,6 +168,11 @@ footer#footer {
     letter-spacing: .5px;
     word-spacing: 5px;
 }
+
+.navbar-default .navbar-collapse {
+    border: #fff;
+}
+
 
 
 
@@ -351,4 +372,32 @@ input#gform_next_button_1_2, input#gform_next_button_1_5, input#gform_next_butto
 input#gform_next_button_1_2:hover, input#gform_previous_button_1_5:hover, input#gform_next_button_1_5:hover, input#gform_previous_button_1_10:hover, input#gform_next_button_1_10:hover, input#gform_previous_button_1:hover, input#gform_submit_button_1:hover {
     background: white;
     color: #FF4719;
+}
+
+
+/*Browse Petitions*/
+
+#browse-post-title {
+    color: #FF4719;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.browse-target {
+    font-weight: 500;
+    color: #000;
+}
+
+.browse-text-blk {
+    height: 100px;
+    padding-bottom: 12em;
+    top: -.5em;
+    
+}
+
+.browse-thumb {
+    padding-right: 15em;
+    padding-bottom: 1em;
+
 }
